@@ -7,6 +7,7 @@ const TextComponent = ({count, onIncrease}) =>{
     <h1 onMouseOver={onIncrease}>
       Mukesh Maurya: {count}
     </h1>
+    <span>Hello</span>
     </>
   )
 }
